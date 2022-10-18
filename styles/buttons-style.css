@@ -1,0 +1,71 @@
+.silver-button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background-color: rgb(177, 174, 174);
+      color: rgb(44, 44, 44);
+      border: none;
+      height: 30PX;
+      border: 2px;
+      border-style: solid;
+      border-color: rgb(44, 44, 44);
+      width: 135px;
+      border-radius: 2px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: opacity 0.15s;
+     }
+     .silver-button:hover{
+      opacity: 0.8;
+     }
+     .silver-button:active{
+      opacity: 0.5;
+     }
+     .gold-button{
+      background-color: rgb(255, 255, 255);
+      color: rgb(212, 175, 55);
+      border-color: rgb(255, 208, 0);
+      border: 1px;
+      border-style: solid;
+      height: 30px;
+      width: 80;
+      cursor: pointer;
+      border-radius: 2px;
+      margin-left: 8px;
+      font-weight: bold;
+  
+      transition: background-color 0.18s,
+       color 0.18s, opacity 0.15s;
+     }
+     .gold-button:hover{
+      background-color: rgb(212, 175, 55);
+      color: white;
+     }
+     .gold-button:active{
+      opacity: 0.7;
+     }
+     .bronze-button{
+      background-color: rgb(153, 101, 21);
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 8px;
+      border-style: solid;
+      color: white;
+      border: none;
+      height: 30px;
+      width: 140px;
+      border-radius: 18px;
+      font-weight: bolder;
+      cursor: pointer;
+      transition: opacity 1s, box-shadow 0.15s;
+     }
+     .bronze-button:hover{
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+     }
+     .bronze-button:hover{
+      opacity: 0.9;
+     }
+     .bronze-button:active{
+      opacity: 0.5;
+     }
+     .silver-one{
+      margin-left: 10px;
+     }
+   
